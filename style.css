@@ -143,6 +143,12 @@ section p {
 .mapa {
     padding: 0.5em 0;
     background: linear-gradient(#fefefe, #888888);
+    display: block;
+}
+
+.mapa-conteudo {
+    width: 940px;
+    margin: 0 auto;
 }
 
 .mapa p {
@@ -150,9 +156,12 @@ section p {
     text-align: center;
 }
 
+.section {
+    display: block;
+}
+
 .mapa iframe {
-    width: 940px;
-    height: 360px;
+    align-items: center;
 }
 
 .principal div {
